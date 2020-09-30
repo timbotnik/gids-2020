@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-size: 24px;
+  }
+  h1 {
+    @apply text-4xl;
+  }
+  h2 {
+    @apply text-2xl;
+  }
+  h3 {
+    @apply text-xl;
+  }
+  ul {
+    @apply text-xl list-disc leading-loose;
+  }
+  video {
+    @apply outline-none rounded;
+  }
+}
