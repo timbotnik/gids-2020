@@ -5,8 +5,8 @@ import { SlideImage } from "components/deck/SlideImage";
 
 export default function Slide() {
   return (
-    <SlideBody header={<Header title="Tradeoff: Queries vs. Fragments" />}>
-      <SlideImage url="/img/queries-fragments-venn.svg" />
+    <SlideBody header={<Header title="Apps: built as component trees" />}>
+      <SlideImage url="/img/tree.svg" />
     </SlideBody>
   );
 }

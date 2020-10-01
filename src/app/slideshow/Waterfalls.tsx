@@ -17,7 +17,16 @@ export default function Slide() {
           {currentStep > 0 && (
             <>
               <li>When Science fails - resort to ART</li>
-              <li>Consider Skeleton Screens 👉</li>
+              <li>
+                Consider{" "}
+                <a
+                  className="hover:underline"
+                  href="https://uxdesign.cc/what-you-should-know-about-skeleton-screens-a820c45a571a"
+                >
+                  Skeleton Screens
+                </a>{" "}
+                👉
+              </li>
               <li>Coming soon... 🤞 React Suspense for Data Fetching</li>
             </>
           )}

@@ -9,12 +9,12 @@ const slides: SlideDefinition[] = [
     Slide: React.lazy(() => import("./slideshow/Cover")),
   },
   {
-    slug: "intro",
-    Slide: React.lazy(() => import("./slideshow/Intro")),
-  },
-  {
     slug: "agenda",
     Slide: React.lazy(() => import("./slideshow/Agenda")),
+  },
+  {
+    slug: "intro",
+    Slide: React.lazy(() => import("./slideshow/Intro")),
   },
   {
     slug: "ethics",
@@ -29,8 +29,16 @@ const slides: SlideDefinition[] = [
     Slide: React.lazy(() => import("./slideshow/DDATech")),
   },
   {
+    slug: "component-tree",
+    Slide: React.lazy(() => import("./slideshow/ComponentTree")),
+  },
+  {
     slug: "loading",
     Slide: React.lazy(() => import("./slideshow/Loading")),
+  },
+  {
+    slug: "component-data-tree",
+    Slide: React.lazy(() => import("./slideshow/ComponentDataTree")),
   },
   {
     slug: "loading-pain",
@@ -49,16 +57,16 @@ const slides: SlideDefinition[] = [
     Slide: React.lazy(() => import("./slideshow/LoadingQueriesVideo")),
   },
   {
-    slug: "tradeoffs-queries",
-    Slide: React.lazy(() => import("./slideshow/TradeoffsQueries")),
+    slug: "loading-queries",
+    Slide: React.lazy(() => import("./slideshow/LoadingQueries")),
   },
   {
     slug: "loading-fragments-video",
     Slide: React.lazy(() => import("./slideshow/LoadingFragmentsVideo")),
   },
   {
-    slug: "tradeoffs-fragments",
-    Slide: React.lazy(() => import("./slideshow/TradeoffsFragments")),
+    slug: "loading-fragments",
+    Slide: React.lazy(() => import("./slideshow/LoadingFragments")),
   },
   {
     slug: "tradeoffs-queries-v-fragments",
@@ -97,12 +105,12 @@ const slides: SlideDefinition[] = [
     Slide: React.lazy(() => import("./slideshow/MutationOptUi")),
   },
   {
-    slug: "error-patterns",
-    Slide: React.lazy(() => import("./slideshow/ErrorPatterns")),
-  },
-  {
     slug: "errors-inline-video",
     Slide: React.lazy(() => import("./slideshow/ErrorsInlineVideo")),
+  },
+  {
+    slug: "error-patterns",
+    Slide: React.lazy(() => import("./slideshow/ErrorPatterns")),
   },
   {
     slug: "error-banner-video",

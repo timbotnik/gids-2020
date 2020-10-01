@@ -39,6 +39,7 @@ export default function Slide() {
             apollographql.com/docs
           </a>
         </li>
+        <li>We're hiring!</li>
       </ul>
     </SlideBody>
   );

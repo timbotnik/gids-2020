@@ -4,7 +4,7 @@ import { Header } from "./Header";
 import useSteps from "../../components/deck/useSteps";
 
 export default function Slide() {
-  const [currentStep] = useSteps(3);
+  const [currentStep] = useSteps(2);
   return (
     <SlideBody
       header={
@@ -24,6 +24,7 @@ export default function Slide() {
           <li>Data needs are described by the component</li>
           <li>Co-located with the UI code that consumes it</li>
           <li>GraphQL enables some stellar workflows here</li>
+          {currentStep > 0 && <li>Watch out for: waterfalls</li>}
         </ul>
       </>
     </SlideBody>

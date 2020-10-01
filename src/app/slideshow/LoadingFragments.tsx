@@ -4,7 +4,7 @@ import { Header } from "./Header";
 
 export default function Slide() {
   return (
-    <SlideBody header={<Header title="Tradeoff: Queries vs. Fragments" />}>
+    <SlideBody header={<Header title="Loading: GraphQL Fragments" />}>
       <div className="flex h-full">
         <div
           className="flex-1 mr-10"

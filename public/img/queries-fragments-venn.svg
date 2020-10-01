@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="120 -32 994.1681 711" width="994.1681" height="711">
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="28" panose-1="2 11 6 4 2 2 2 2 2 4" units-per-em="1000" underline-position="-75" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="975.0061" descent="-216.99524" font-weight="500">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue-Medium"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Menlo" font-size="19" panose-1="2 11 6 9 3 8 4 2 2 4" units-per-em="1000" underline-position="-63.47656" underline-thickness="43.94531" slope="0" x-height="546.875" cap-height="729.0039" ascent="928.2227" descent="-235.83984" font-weight="400">
+      <font-face-src>
+        <font-face-name name="Menlo-Regular"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.17.5\n2020-10-01 04:02:16 +0000</metadata>
+  <g id="Canvas_1" fill-opacity="1" stroke-opacity="1" stroke-dasharray="none" fill="none" stroke="none">
+    <title>Canvas 1</title>
+    <g id="Canvas_1_Queries">
+      <title>Queries</title>
+      <g id="Group_20">
+        <g id="Group_19">
+          <g id="Graphic_8">
+            <path d="M 663.00616 61.993845 C 786.9982 185.98522 786.9982 387.0148 663.00616 511.00616 C 539.0148 634.99816 337.9852 634.99816 213.99385 511.00616 C 90.00184 387.0148 90.00184 185.98522 213.99385 61.993845 C 337.9852 -61.99816 539.0148 -61.99816 663.00616 61.993845" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+            <text transform="translate(225.5 69.25)" fill="white">
+              <tspan font-family="Helvetica Neue" font-size="28" font-weight="500" fill="white" x="0" y="27">Queries</tspan>
+            </text>
+          </g>
+          <g id="Graphic_12">
+            <text transform="translate(188.6 197)" fill="white">
+              <tspan font-family="Menlo" font-size="19" font-weight="400" fill="white" x="0" y="18">D</tspan>
+              <tspan font-family="Menlo" font-size="19" font-weight="400" fill="white" y="18">efine a network </tspan>
+              <tspan font-family="Menlo" font-size="19" font-weight="400" fill="white" x="0" y="40">transaction</tspan>
+              <tspan font-family="Menlo" font-size="19" font-weight="400" fill="white" x="0" y="84">Provide data </tspan>
+              <tspan font-family="Menlo" font-size="19" font-weight="400" fill="white" x="0" y="106">independence</tspan>
+              <tspan font-family="Menlo" font-size="19" font-weight="400" fill="white" x="0" y="150">Can load in parallel</tspan>
+              <tspan font-family="Menlo" font-size="19" font-weight="400" fill="#ff2600" x="0" y="194">Watch out for:</tspan>
+              <tspan font-family="Menlo" font-size="19" font-weight="400" fill="white" y="194"> </tspan>
+              <tspan font-family="Menlo" font-size="19" font-weight="400" fill="white" x="0" y="216">loose couplings, N+1</tspan>
+            </text>
+          </g>
+        </g>
+        <g id="Group_17">
+          <g id="Graphic_9">
+            <path d="M 994.0062 135.99384 C 1117.9982 259.9852 1117.9982 461.0148 994.0062 585.00616 C 870.0148 708.9982 668.9852 708.9982 544.99385 585.00616 C 421.00184 461.0148 421.00184 259.9852 544.99385 135.99384 C 668.9852 12.00184 870.0148 12.00184 994.0062 135.99384" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+            <text transform="translate(558.5 143.25)" fill="white">
+              <tspan font-family="Helvetica Neue" font-size="28" font-weight="500" fill="white" x="283.512" y="27">Fragments</tspan>
+            </text>
+          </g>
+          <g id="Graphic_15">
+            <text transform="translate(789.5168 285)" fill="white">
+              <tspan font-family="Menlo" font-size="19" font-weight="400" fill="white" x="0" y="18">Tightly co-located </tspan>
+              <tspan font-family="Menlo" font-size="19" font-weight="400" fill="white" x="0" y="40">data dependencies</tspan>
+              <tspan font-family="Menlo" font-size="19" font-weight="400" fill="white" x="0" y="84">Composable </tspan>
+              <tspan font-family="Menlo" font-size="19" font-weight="400" fill="white" x="0" y="128">Help avoid waterfalls</tspan>
+              <tspan font-family="Menlo" font-size="19" font-weight="400" fill="white" x="0" y="172">Require parent to load</tspan>
+              <tspan font-family="Menlo" font-size="19" font-weight="400" fill="#ff2600" x="0" y="216">Watch out for:</tspan>
+              <tspan font-family="Menlo" font-size="19" font-weight="400" fill="white" y="216"> </tspan>
+              <tspan font-family="Menlo" font-size="19" font-weight="400" fill="white" x="0" y="238">boilerplate fatigue</tspan>
+            </text>
+          </g>
+        </g>
+        <g id="Graphic_16">
+          <text transform="translate(514.4168 290.14286)" fill="white">
+            <tspan font-family="Menlo" font-size="19" font-weight="400" fill="white" x="0" y="18">Declarative Data</tspan>
+            <tspan font-family="Menlo" font-size="19" font-weight="400" fill="white" x="0" y="62">Type safety</tspan>
+            <tspan font-family="Menlo" font-size="19" font-weight="400" fill="white" x="0" y="106">Can be co-</tspan>
+            <tspan font-family="Menlo" font-size="19" font-weight="400" fill="white" x="0" y="128">located with UI</tspan>
+          </text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

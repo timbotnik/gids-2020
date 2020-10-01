@@ -10,8 +10,10 @@ export default function Slide() {
     >
       <ul>
         <li>Component frameworks, design systems</li>
-        <li>ES Modules, Typescript, Babel, CSS in JS</li>
-        <li>Async / await, web workers, ...</li>
+        <li>
+          ES Modules, Typescript, Babel, CSS in JS, async / await, web workers,
+          ...
+        </li>
         <li>Also, TOOLS!!!</li>
       </ul>
     </SlideBody>
