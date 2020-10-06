@@ -2,6 +2,7 @@ import React from "react";
 import { SlideBody } from "../../components/deck/SlideBody";
 import { Header } from "./Header";
 import useSteps from "components/deck/useSteps";
+import { Emoji } from "components/Emoji";
 
 export default function Slide() {
   const [currentStep] = useSteps(2);
@@ -25,9 +26,12 @@ export default function Slide() {
                 >
                   Skeleton Screens
                 </a>{" "}
-                👉
+                <Emoji symbol="👉" label="finger pointing right" />
               </li>
-              <li>Coming soon... 🤞 React Suspense for Data Fetching</li>
+              <li>
+                Coming soon... <Emoji symbol="🤞" label="fingers crossed" />{" "}
+                React Suspense for Data Fetching
+              </li>
             </>
           )}
         </ul>

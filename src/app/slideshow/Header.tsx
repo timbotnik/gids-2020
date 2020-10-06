@@ -1,5 +1,4 @@
 import React from "react";
-import { ApolloLogo } from "@apollo/space-kit/icons/ApolloLogo";
 
 interface Props {
   title: React.ReactNode;
